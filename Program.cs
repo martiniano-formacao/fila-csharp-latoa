@@ -22,16 +22,16 @@ namespace Queue1
                 2 - Completar a declaração de uma queue, chamada cidades2, do tipo string 
              */
 
-            //Queue<_______> cidades2 = new Queue<_______>();
+            Queue<string> cidades2 = new Queue<string>();
 
             /* 
                 3 - Inserir cidades na queue cidades2
             */
 
-            //_______._______("Coimbra");
-            //_______._______("Lisboa");
-            //_______._______("Porto");
-            //_______._______("Faro");
+            cidades2.Enqueue("Coimbra");
+            cidades2.Enqueue("Lisboa");
+            cidades2.Enqueue("Porto");
+            cidades2.Enqueue("Faro");
 
             /*
                 4 - Retirar os dois primeiros elementos da queue
